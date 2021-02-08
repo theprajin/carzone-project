@@ -16,7 +16,7 @@
                     <h3>Wow Factor Standard</h3>
                     <h5>Allow us to guide you through the innovative stress<br>
                         free approach in finding your dream car.</h5>
-                    <a href="services.html" class="btn btn-lg btn-theme">Read more</a>
+                    <a href="{% url 'services' %}" class="btn btn-lg btn-theme">Read more</a>
                 </div>
             </div>
             <div class="carousel-item banner-max-height item-bg">
@@ -25,7 +25,7 @@
                     <h3>Explore Your Dream Car</h3>
                     <h5>Allow us to guide you through the innovative stress<br>
                         free approach in finding your dream car.</h5>
-                    <a href="#" class="btn btn-lg btn-theme">Read more</a>
+                    <a href="{% url 'services' %}" class="btn btn-lg btn-theme">Read more</a>
                 </div>
             </div>
             <div class="carousel-item banner-max-height item-bg">
@@ -34,7 +34,7 @@
                     <h3>We Are Wheel</h3>
                     <h5>Allow us to guide you through the innovative stress<br>
                         free approach in finding your dream car.</h5>
-                    <a href="#" class="btn btn-lg btn-theme">Read more</a>
+                    <a href="{% url 'services' %}" class="btn btn-lg btn-theme">Read more</a>
                 </div>
             </div>
         </div>
@@ -909,9 +909,9 @@
                                 <img src="{{ team.photo.url }}" alt="team-1" class="img-fluid">
                             </a>
                             <div class="social-list clearfix">
-                                <a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a>
-                                <a href="#" class="google-bg"><i class="fa fa-google"></i></a>
+                                <a href="https://facebook.com" class="facebook-bg"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com" class="twitter-bg"><i class="fa fa-twitter"></i></a>
+                                <a href="https://google.com" class="google-bg"><i class="fa fa-google"></i></a>
                             </div>
                         </div>
                         <div class="details">
@@ -937,7 +937,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-12">
-                <a href="contact.html" class="btn btn-md">Get in Touch</a>
+                <a href=" {% url 'contact' %} " class="btn btn-md">Get in Touch</a>
             </div>
         </div>
     </div>
